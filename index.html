@@ -125,7 +125,7 @@
 			_vel,
 			_t = _p.tracer,
 			diffX, diffY,
-			maxBurst = 25, burst;
+			maxBurst = 10, burst;
 
 		diffX = _t.x - _p.x;
 		diffY = _t.y - _p.y;
@@ -239,6 +239,7 @@
 	// #### Initialize and setup the animation #### //
 	// -------------------------------------------- //
 	function init(){
+      
 		var i;
 
 		initializing = true;
